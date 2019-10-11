@@ -1,0 +1,10 @@
+#------------------------------------------
+
+include  init
+variable a equal    1
+fix  1  inner  addforce  0  0  0.00001/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------

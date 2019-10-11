@@ -1,0 +1,61 @@
+﻿生成启动时间为 2012/12/8 23:20:01。
+     1>项目“D:\MyProject\Osmosis\solution\solution\solution.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\solution.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt solute_input.c
+         solute_input.c
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(16): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(16): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(17): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(25): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(27): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(32): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(57): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(60): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(63): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(71): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(78): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(80): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(15): warning C4101: “angle”: 未引用的局部变量
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(10): warning C4101: “i4”: 未引用的局部变量
+     1>d:\myproject\osmosis\solution\solution\solute_input.c(15): warning C4101: “bond”: 未引用的局部变量
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyProject\Osmosis\solution\Debug\solution.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\solution.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\MyProject\Osmosis\solution\Debug\solution.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyProject\Osmosis\solution\Debug\solution.lib" /MACHINE:X86 Debug\solution.exe.embed.manifest.res
+         Debug\solute_input.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\solution.exe.embed.manifest" /manifest Debug\solution.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         solution.vcxproj -> D:\MyProject\Osmosis\solution\Debug\solution.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\solution.unsuccessfulbuild”。
+         正在对“Debug\solution.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\MyProject\Osmosis\solution\solution\solution.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.52

@@ -1,0 +1,21 @@
+
+variable  b  equal v_a*0.01/v_load  # pressure MPa to eV/A
+variable  c  equal v_a+1
+variable  d  equal 0.01*v_a # pressure atm
+
+thermo        1000
+thermo_style  custom step c_inTemp v_rr c_dist[3] c_vp[3] pe v_xpress v_ypress v_zpress v_a
+
+min_style     sd
+min_modify    line  quadratic
+minimize      1.0e-12 1.0e-16 100000 1000000
+
+dump  1 all custom 2 opt.dump id x y z v_s1 v_s2 v_s3 v_s4 v_s5 v_s6 v_sz c_pe
+dump  2 all xyz 2 opt.xyz
+dump_modify  1  append  yes
+dump_modify  2  append  yes
+fix  extra  all  print  1  " $d ${rr} ${dist} ${xpress} ${ypress} ${zpress} ${F} " append coord title  " "
+timestep  0.00001
+run  1
+#write_restart 0.restart
+variable  a  delete

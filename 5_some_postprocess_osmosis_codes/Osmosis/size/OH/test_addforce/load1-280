@@ -1,0 +1,2521 @@
+#------------------------------------------
+
+include  init
+variable a equal    1
+fix  1  inner  addforce  0  0  0.0001/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal    2
+fix  1  inner  addforce  0  0  0.0002/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal    3
+fix  1  inner  addforce  0  0  0.0003/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal    4
+fix  1  inner  addforce  0  0  0.004/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal    5
+fix  1  inner  addforce  0  0  0.005/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal    6
+fix  1  inner  addforce  0  0  0.006/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal    7
+fix  1  inner  addforce  0  0  0.007/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal    8
+fix  1  inner  addforce  0  0  0.008/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal    9
+fix  1  inner  addforce  0  0  0.009/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   10
+fix  1  inner  addforce  0  0  0.010/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   11
+fix  1  inner  addforce  0  0  0.011/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   12
+fix  1  inner  addforce  0  0  0.012/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   13
+fix  1  inner  addforce  0  0  0.013/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   14
+fix  1  inner  addforce  0  0  0.014/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   15
+fix  1  inner  addforce  0  0  0.015/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   16
+fix  1  inner  addforce  0  0  0.016/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   17
+fix  1  inner  addforce  0  0  0.017/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   18
+fix  1  inner  addforce  0  0  0.018/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   19
+fix  1  inner  addforce  0  0  0.019/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   20
+fix  1  inner  addforce  0  0  0.020/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   21
+fix  1  inner  addforce  0  0  0.021/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   22
+fix  1  inner  addforce  0  0  0.022/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   23
+fix  1  inner  addforce  0  0  0.023/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   24
+fix  1  inner  addforce  0  0  0.024/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   25
+fix  1  inner  addforce  0  0  0.025/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   26
+fix  1  inner  addforce  0  0  0.026/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   27
+fix  1  inner  addforce  0  0  0.027/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   28
+fix  1  inner  addforce  0  0  0.028/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   29
+fix  1  inner  addforce  0  0  0.029/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   30
+fix  1  inner  addforce  0  0  0.030/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   31
+fix  1  inner  addforce  0  0  0.031/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   32
+fix  1  inner  addforce  0  0  0.032/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   33
+fix  1  inner  addforce  0  0  0.033/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   34
+fix  1  inner  addforce  0  0  0.034/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   35
+fix  1  inner  addforce  0  0  0.035/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   36
+fix  1  inner  addforce  0  0  0.036/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   37
+fix  1  inner  addforce  0  0  0.037/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   38
+fix  1  inner  addforce  0  0  0.038/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   39
+fix  1  inner  addforce  0  0  0.039/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   40
+fix  1  inner  addforce  0  0  0.040/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   41
+fix  1  inner  addforce  0  0  0.041/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   42
+fix  1  inner  addforce  0  0  0.042/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   43
+fix  1  inner  addforce  0  0  0.043/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   44
+fix  1  inner  addforce  0  0  0.044/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   45
+fix  1  inner  addforce  0  0  0.045/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   46
+fix  1  inner  addforce  0  0  0.046/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   47
+fix  1  inner  addforce  0  0  0.047/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   48
+fix  1  inner  addforce  0  0  0.048/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   49
+fix  1  inner  addforce  0  0  0.049/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   50
+fix  1  inner  addforce  0  0  0.050/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   51
+fix  1  inner  addforce  0  0  0.051/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   52
+fix  1  inner  addforce  0  0  0.052/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   53
+fix  1  inner  addforce  0  0  0.053/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   54
+fix  1  inner  addforce  0  0  0.054/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   55
+fix  1  inner  addforce  0  0  0.055/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   56
+fix  1  inner  addforce  0  0  0.056/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   57
+fix  1  inner  addforce  0  0  0.057/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   58
+fix  1  inner  addforce  0  0  0.058/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   59
+fix  1  inner  addforce  0  0  0.059/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   60
+fix  1  inner  addforce  0  0  0.060/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   61
+fix  1  inner  addforce  0  0  0.061/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   62
+fix  1  inner  addforce  0  0  0.062/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   63
+fix  1  inner  addforce  0  0  0.063/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   64
+fix  1  inner  addforce  0  0  0.064/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   65
+fix  1  inner  addforce  0  0  0.065/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   66
+fix  1  inner  addforce  0  0  0.066/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   67
+fix  1  inner  addforce  0  0  0.067/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   68
+fix  1  inner  addforce  0  0  0.068/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   69
+fix  1  inner  addforce  0  0  0.069/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   70
+fix  1  inner  addforce  0  0  0.070/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   71
+fix  1  inner  addforce  0  0  0.071/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   72
+fix  1  inner  addforce  0  0  0.072/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   73
+fix  1  inner  addforce  0  0  0.073/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   74
+fix  1  inner  addforce  0  0  0.074/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   75
+fix  1  inner  addforce  0  0  0.075/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   76
+fix  1  inner  addforce  0  0  0.076/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   77
+fix  1  inner  addforce  0  0  0.077/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   78
+fix  1  inner  addforce  0  0  0.078/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   79
+fix  1  inner  addforce  0  0  0.079/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   80
+fix  1  inner  addforce  0  0  0.080/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   81
+fix  1  inner  addforce  0  0  0.081/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   82
+fix  1  inner  addforce  0  0  0.082/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   83
+fix  1  inner  addforce  0  0  0.083/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   84
+fix  1  inner  addforce  0  0  0.084/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   85
+fix  1  inner  addforce  0  0  0.085/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   86
+fix  1  inner  addforce  0  0  0.086/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   87
+fix  1  inner  addforce  0  0  0.087/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   88
+fix  1  inner  addforce  0  0  0.088/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   89
+fix  1  inner  addforce  0  0  0.089/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   90
+fix  1  inner  addforce  0  0  0.090/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   91
+fix  1  inner  addforce  0  0  0.091/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   92
+fix  1  inner  addforce  0  0  0.092/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   93
+fix  1  inner  addforce  0  0  0.093/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   94
+fix  1  inner  addforce  0  0  0.094/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   95
+fix  1  inner  addforce  0  0  0.095/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   96
+fix  1  inner  addforce  0  0  0.096/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   97
+fix  1  inner  addforce  0  0  0.097/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   98
+fix  1  inner  addforce  0  0  0.098/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal   99
+fix  1  inner  addforce  0  0  0.099/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  100
+fix  1  inner  addforce  0  0  0.100/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  101
+fix  1  inner  addforce  0  0  0.101/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  102
+fix  1  inner  addforce  0  0  0.102/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  103
+fix  1  inner  addforce  0  0  0.103/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  104
+fix  1  inner  addforce  0  0  0.104/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  105
+fix  1  inner  addforce  0  0  0.105/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  106
+fix  1  inner  addforce  0  0  0.106/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  107
+fix  1  inner  addforce  0  0  0.107/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  108
+fix  1  inner  addforce  0  0  0.108/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  109
+fix  1  inner  addforce  0  0  0.109/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  110
+fix  1  inner  addforce  0  0  0.110/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  111
+fix  1  inner  addforce  0  0  0.111/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  112
+fix  1  inner  addforce  0  0  0.112/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  113
+fix  1  inner  addforce  0  0  0.113/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  114
+fix  1  inner  addforce  0  0  0.114/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  115
+fix  1  inner  addforce  0  0  0.115/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  116
+fix  1  inner  addforce  0  0  0.116/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  117
+fix  1  inner  addforce  0  0  0.117/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  118
+fix  1  inner  addforce  0  0  0.118/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  119
+fix  1  inner  addforce  0  0  0.119/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  120
+fix  1  inner  addforce  0  0  0.120/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  121
+fix  1  inner  addforce  0  0  0.121/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  122
+fix  1  inner  addforce  0  0  0.122/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  123
+fix  1  inner  addforce  0  0  0.123/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  124
+fix  1  inner  addforce  0  0  0.124/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  125
+fix  1  inner  addforce  0  0  0.125/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  126
+fix  1  inner  addforce  0  0  0.126/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  127
+fix  1  inner  addforce  0  0  0.127/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  128
+fix  1  inner  addforce  0  0  0.128/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  129
+fix  1  inner  addforce  0  0  0.129/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  130
+fix  1  inner  addforce  0  0  0.130/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  131
+fix  1  inner  addforce  0  0  0.131/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  132
+fix  1  inner  addforce  0  0  0.132/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  133
+fix  1  inner  addforce  0  0  0.133/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  134
+fix  1  inner  addforce  0  0  0.134/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  135
+fix  1  inner  addforce  0  0  0.135/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  136
+fix  1  inner  addforce  0  0  0.136/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  137
+fix  1  inner  addforce  0  0  0.137/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  138
+fix  1  inner  addforce  0  0  0.138/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  139
+fix  1  inner  addforce  0  0  0.139/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  140
+fix  1  inner  addforce  0  0  0.140/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  141
+fix  1  inner  addforce  0  0  0.141/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  142
+fix  1  inner  addforce  0  0  0.142/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  143
+fix  1  inner  addforce  0  0  0.143/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  144
+fix  1  inner  addforce  0  0  0.144/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  145
+fix  1  inner  addforce  0  0  0.145/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  146
+fix  1  inner  addforce  0  0  0.146/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  147
+fix  1  inner  addforce  0  0  0.147/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  148
+fix  1  inner  addforce  0  0  0.148/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  149
+fix  1  inner  addforce  0  0  0.149/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  150
+fix  1  inner  addforce  0  0  0.150/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  151
+fix  1  inner  addforce  0  0  0.151/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  152
+fix  1  inner  addforce  0  0  0.152/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  153
+fix  1  inner  addforce  0  0  0.153/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  154
+fix  1  inner  addforce  0  0  0.154/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  155
+fix  1  inner  addforce  0  0  0.155/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  156
+fix  1  inner  addforce  0  0  0.156/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  157
+fix  1  inner  addforce  0  0  0.157/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  158
+fix  1  inner  addforce  0  0  0.158/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  159
+fix  1  inner  addforce  0  0  0.159/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  160
+fix  1  inner  addforce  0  0  0.160/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  161
+fix  1  inner  addforce  0  0  0.161/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  162
+fix  1  inner  addforce  0  0  0.162/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  163
+fix  1  inner  addforce  0  0  0.163/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  164
+fix  1  inner  addforce  0  0  0.164/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  165
+fix  1  inner  addforce  0  0  0.165/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  166
+fix  1  inner  addforce  0  0  0.166/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  167
+fix  1  inner  addforce  0  0  0.167/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  168
+fix  1  inner  addforce  0  0  0.168/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  169
+fix  1  inner  addforce  0  0  0.169/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  170
+fix  1  inner  addforce  0  0  0.170/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  171
+fix  1  inner  addforce  0  0  0.171/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  172
+fix  1  inner  addforce  0  0  0.172/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  173
+fix  1  inner  addforce  0  0  0.173/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  174
+fix  1  inner  addforce  0  0  0.174/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  175
+fix  1  inner  addforce  0  0  0.175/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  176
+fix  1  inner  addforce  0  0  0.176/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  177
+fix  1  inner  addforce  0  0  0.177/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  178
+fix  1  inner  addforce  0  0  0.178/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  179
+fix  1  inner  addforce  0  0  0.179/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  180
+fix  1  inner  addforce  0  0  0.180/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  181
+fix  1  inner  addforce  0  0  0.181/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  182
+fix  1  inner  addforce  0  0  0.182/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  183
+fix  1  inner  addforce  0  0  0.183/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  184
+fix  1  inner  addforce  0  0  0.184/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  185
+fix  1  inner  addforce  0  0  0.185/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  186
+fix  1  inner  addforce  0  0  0.186/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  187
+fix  1  inner  addforce  0  0  0.187/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  188
+fix  1  inner  addforce  0  0  0.188/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  189
+fix  1  inner  addforce  0  0  0.189/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  190
+fix  1  inner  addforce  0  0  0.190/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  191
+fix  1  inner  addforce  0  0  0.191/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  192
+fix  1  inner  addforce  0  0  0.192/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  193
+fix  1  inner  addforce  0  0  0.193/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  194
+fix  1  inner  addforce  0  0  0.194/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  195
+fix  1  inner  addforce  0  0  0.195/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  196
+fix  1  inner  addforce  0  0  0.196/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  197
+fix  1  inner  addforce  0  0  0.197/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  198
+fix  1  inner  addforce  0  0  0.198/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  199
+fix  1  inner  addforce  0  0  0.199/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  200
+fix  1  inner  addforce  0  0  0.200/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  201
+fix  1  inner  addforce  0  0  0.201/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  202
+fix  1  inner  addforce  0  0  0.202/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  203
+fix  1  inner  addforce  0  0  0.203/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  204
+fix  1  inner  addforce  0  0  0.204/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  205
+fix  1  inner  addforce  0  0  0.205/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  206
+fix  1  inner  addforce  0  0  0.206/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  207
+fix  1  inner  addforce  0  0  0.207/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  208
+fix  1  inner  addforce  0  0  0.208/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  209
+fix  1  inner  addforce  0  0  0.209/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  210
+fix  1  inner  addforce  0  0  0.210/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  211
+fix  1  inner  addforce  0  0  0.211/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  212
+fix  1  inner  addforce  0  0  0.212/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  213
+fix  1  inner  addforce  0  0  0.213/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  214
+fix  1  inner  addforce  0  0  0.214/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  215
+fix  1  inner  addforce  0  0  0.215/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  216
+fix  1  inner  addforce  0  0  0.216/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  217
+fix  1  inner  addforce  0  0  0.217/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  218
+fix  1  inner  addforce  0  0  0.218/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  219
+fix  1  inner  addforce  0  0  0.219/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  220
+fix  1  inner  addforce  0  0  0.220/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  221
+fix  1  inner  addforce  0  0  0.221/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  222
+fix  1  inner  addforce  0  0  0.222/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  223
+fix  1  inner  addforce  0  0  0.223/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  224
+fix  1  inner  addforce  0  0  0.224/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  225
+fix  1  inner  addforce  0  0  0.225/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  226
+fix  1  inner  addforce  0  0  0.226/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  227
+fix  1  inner  addforce  0  0  0.227/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  228
+fix  1  inner  addforce  0  0  0.228/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  229
+fix  1  inner  addforce  0  0  0.229/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  230
+fix  1  inner  addforce  0  0  0.230/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  231
+fix  1  inner  addforce  0  0  0.231/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  232
+fix  1  inner  addforce  0  0  0.232/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  233
+fix  1  inner  addforce  0  0  0.233/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  234
+fix  1  inner  addforce  0  0  0.234/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  235
+fix  1  inner  addforce  0  0  0.235/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  236
+fix  1  inner  addforce  0  0  0.236/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  237
+fix  1  inner  addforce  0  0  0.237/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  238
+fix  1  inner  addforce  0  0  0.238/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  239
+fix  1  inner  addforce  0  0  0.239/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  240
+fix  1  inner  addforce  0  0  0.240/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  241
+fix  1  inner  addforce  0  0  0.241/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  242
+fix  1  inner  addforce  0  0  0.242/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  243
+fix  1  inner  addforce  0  0  0.243/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  244
+fix  1  inner  addforce  0  0  0.244/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  245
+fix  1  inner  addforce  0  0  0.245/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  246
+fix  1  inner  addforce  0  0  0.246/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  247
+fix  1  inner  addforce  0  0  0.247/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  248
+fix  1  inner  addforce  0  0  0.248/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  249
+fix  1  inner  addforce  0  0  0.249/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  250
+fix  1  inner  addforce  0  0  0.250/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  251
+fix  1  inner  addforce  0  0  0.251/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  252
+fix  1  inner  addforce  0  0  0.252/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  253
+fix  1  inner  addforce  0  0  0.253/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  254
+fix  1  inner  addforce  0  0  0.254/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  255
+fix  1  inner  addforce  0  0  0.255/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  256
+fix  1  inner  addforce  0  0  0.256/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  257
+fix  1  inner  addforce  0  0  0.257/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  258
+fix  1  inner  addforce  0  0  0.258/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  259
+fix  1  inner  addforce  0  0  0.259/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  260
+fix  1  inner  addforce  0  0  0.260/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  261
+fix  1  inner  addforce  0  0  0.261/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  262
+fix  1  inner  addforce  0  0  0.262/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  263
+fix  1  inner  addforce  0  0  0.263/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  264
+fix  1  inner  addforce  0  0  0.264/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  265
+fix  1  inner  addforce  0  0  0.265/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  266
+fix  1  inner  addforce  0  0  0.266/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  267
+fix  1  inner  addforce  0  0  0.267/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  268
+fix  1  inner  addforce  0  0  0.268/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  269
+fix  1  inner  addforce  0  0  0.269/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  270
+fix  1  inner  addforce  0  0  0.270/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  271
+fix  1  inner  addforce  0  0  0.271/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  272
+fix  1  inner  addforce  0  0  0.272/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  273
+fix  1  inner  addforce  0  0  0.273/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  274
+fix  1  inner  addforce  0  0  0.274/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  275
+fix  1  inner  addforce  0  0  0.275/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  276
+fix  1  inner  addforce  0  0  0.276/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  277
+fix  1  inner  addforce  0  0  0.277/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  278
+fix  1  inner  addforce  0  0  0.278/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  279
+fix  1  inner  addforce  0  0  0.279/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------
+
+include  init
+variable a equal  280
+fix  1  inner  addforce  0  0  0.280/v_load
+fix  2  edge   setforce  0  0  0
+fix_modify  1  energy  yes
+include  minimize
+
+#------------------------------------------

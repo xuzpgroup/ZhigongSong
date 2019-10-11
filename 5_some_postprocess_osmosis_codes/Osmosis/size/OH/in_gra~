@@ -1,0 +1,62 @@
+
+dimension    3
+boundary     p    p    p
+processors   1    1    1
+
+units        real
+atom_style   full
+pair_style   lj/cut/coul/long 12.0
+
+kspace_style pppm    1.0e-4
+read_data    tube10-10structureFpistonOH1.data
+
+## 1H    2:O   3:Na    4:Cl    5:C
+
+pair_coeff   1   1   0.1051    3.851   ###C-C
+pair_coeff   2   2   0.155     3.07    ###O_COH-O_COH
+pair_coeff   3   3   0         0       ###H_COH-H_COH
+
+pair_modify shift yes mix geometric
+
+bond_style     hybrid  morse  harmonic
+bond_coeff     1   morse     114.4092    2.1867    1.418
+bond_coeff     2   harmonic  100.0956    0.1364
+bond_coeff     3   harmonic  450     0.096
+# 1   O-H
+# 2   C-C
+# 3   C-O
+# 4   O-H
+
+angle_style    hybrid  harmonic  cosine/squared
+angle_coeff    1    cosine/squared   67.1548   120
+angle_coeff    2    harmonic        100.0956   120
+angle_coeff    3    harmonic         95.0526   110.5
+# 1  H-O-H
+# 2  C-C-C
+# 3  C-C-O
+# 4  C-O-H
+
+dihedral_style  harmonic
+dihedral_coeff  1   3.0006    -1   2
+dihedral_coeff  2   0         -1   2
+dihedral_coeff  3   2.5096    -1   2
+# 1   C-C-C-C
+# 2   C-C-C-O
+# 3   C-C-O-H
+
+neighbor        2.0         nsq
+neigh_modify    exclude     molecule     all
+
+group  graphene     type   1
+
+min_style         sd
+minimize          1.0e-6     1.0e-8     1000    100000
+
+fix    1    all       shake  1.0e-12   20   0   b  2 3
+
+fix    2    graphene  momentum     1    linear    1    1    1  angular
+fix    3    all   nvt   temp  300  300  100.0
+#fix    5    graphene  setforce   0   0   0
+timestep 0.1
+run 10
+

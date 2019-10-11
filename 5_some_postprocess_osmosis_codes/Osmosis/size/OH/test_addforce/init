@@ -1,0 +1,71 @@
+
+clear
+dimension    3
+boundary     p    p    p
+processors   1    1    1
+
+units        real
+atom_style   full
+pair_style   lj/cut   12.0
+
+read_restart  0.restart
+
+pair_coeff   1   1   0.1051    3.851   ###C-C
+pair_coeff   2   2   0.1051    3.851   ###C-C
+pair_coeff   1   2   0.1051    3.851   ###C-C
+
+bond_style     morse
+bond_coeff     1  114.4092    2.1867    1.418
+
+angle_style    cosine/squared
+angle_coeff    1  67.1548   180
+
+group   edge   type   1
+group   inner  type   2
+group   pore   type   2
+neighbor       2.0 bin
+neigh_modify   delay 5
+
+compute    pe all pe/atom
+compute    ke all ke/atom
+compute    inTemp inner temp
+compute    dist  pore  com
+compute    epol all pe/atom
+compute    1 all stress/atom  virial
+compute    p inner reduce sum c_1[1] c_1[2] c_1[3]
+compute    v pore property/atom vx vy vz
+compute    vp pore reduce sum c_v[1] c_v[2] c_v[3]
+compute    fxyz inner property/atom fx fy fz
+compute    For inner reduce sum c_fxyz[1] c_fxyz[2] c_fxyz[3]
+
+
+variable   atomVol  equal  8.382017396
+variable   tolVol   equal  v_atomVol*count(inner)
+variable   BartoGPa equal  0.0001
+variable   scale    equal  v_BartoGPa/v_atomVol
+variable   atomS    equal  2.619380436
+variable   load     equal  160000/v_atomS    # 1 pressure = ? MPa
+variable   xpress equal  c_p[1]*v_BartoGPa/v_tolVol
+variable   ypress equal  c_p[2]*v_BartoGPa/v_tolVol
+variable   zpress equal  c_p[3]*v_BartoGPa/v_tolVol
+
+variable   xlow   equal  bound(pore,xmin)
+variable   xhigh  equal  bound(pore,xmax)
+variable   ylow   equal  bound(pore,ymin)
+variable   yhigh  equal  bound(pore,ymax)
+
+variable   xr   equal  0.5*(v_xhigh-v_xlow)
+variable   yr   equal  0.5*(v_yhigh-v_ylow)
+variable   rr   equal  (v_xr+v_yr)*0.2679492
+
+variable   s1  atom   c_1[1]*v_scale
+variable   s2  atom   c_1[2]*v_scale
+variable   s3  atom   c_1[3]*v_scale
+variable   s4  atom   c_1[4]*v_scale
+variable   s5  atom   c_1[5]*v_scale
+variable   s6  atom   c_1[6]*v_scale
+
+variable   sz  atom   c_fxyz[3]*160/v_atomS
+
+variable   dist equal  c_dist[3]
+variable   F    equal  c_For[3]*160/(v_atomS*count(inner))

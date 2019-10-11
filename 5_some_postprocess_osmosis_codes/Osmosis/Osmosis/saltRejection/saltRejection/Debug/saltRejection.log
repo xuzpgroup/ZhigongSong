@@ -1,0 +1,38 @@
+﻿生成启动时间为 2013/1/8 14:23:55。
+     1>项目“D:\MyProject\Osmosis\saltRejection\saltRejection\saltRejection.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\saltRejection.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt saltRejection.c
+         saltRejection.c
+     1>d:\myproject\osmosis\saltrejection\saltrejection\saltrejection.c(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\myproject\osmosis\saltrejection\saltrejection\saltrejection.c(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\myproject\osmosis\saltrejection\saltrejection\saltrejection.c(26): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\myproject\osmosis\saltrejection\saltrejection\saltrejection.c(29): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\myproject\osmosis\saltrejection\saltrejection\saltrejection.c(32): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\myproject\osmosis\saltrejection\saltrejection\saltrejection.c(9): warning C4101: “fp3”: 未引用的局部变量
+     1>d:\myproject\osmosis\saltrejection\saltrejection\saltrejection.c(10): warning C4101: “max”: 未引用的局部变量
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyProject\Osmosis\saltRejection\Debug\saltRejection.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\saltRejection.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\MyProject\Osmosis\saltRejection\Debug\saltRejection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyProject\Osmosis\saltRejection\Debug\saltRejection.lib" /MACHINE:X86 Debug\saltRejection.exe.embed.manifest.res
+         Debug\saltRejection.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\saltRejection.exe.embed.manifest" /manifest Debug\saltRejection.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         saltRejection.vcxproj -> D:\MyProject\Osmosis\saltRejection\Debug\saltRejection.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\saltRejection.unsuccessfulbuild”。
+         正在对“Debug\saltRejection.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\MyProject\Osmosis\saltRejection\saltRejection\saltRejection.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.45

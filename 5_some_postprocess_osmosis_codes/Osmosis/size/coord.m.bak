@@ -1,0 +1,6 @@
+importfile('tube15-15.xyz');data15=data;data15(:,1)=data15(:,1)+18.41;data15(:,2)=data15(:,2)+13.5273;data15(:,3)=data15(:,3)+60;
+importfile('tube16-16.xyz');data16=data;data15(:,1)=data15(:,1)+18.41;data15(:,2)=data15(:,2)+13.5273;data15(:,3)=data15(:,3)+60;
+importfile('tube17-17.xyz');data17=data;data15(:,1)=data15(:,1)+18.41;data15(:,2)=data15(:,2)+13.5273;data15(:,3)=data15(:,3)+60;
+importfile('tube18-18.xyz');data18=data;data15(:,1)=data15(:,1)+18.41;data15(:,2)=data15(:,2)+13.5273;data15(:,3)=data15(:,3)+60;
+importfile('tube19-19.xyz');data19=data;data15(:,1)=data15(:,1)+18.41;data15(:,2)=data15(:,2)+13.5273;data15(:,3)=data15(:,3)+60;
+importfile('tube20-20.xyz');data20=data;data15(:,1)=data15(:,1)+18.41;data15(:,2)=data15(:,2)+13.5273;data15(:,3)=data15(:,3)+60;

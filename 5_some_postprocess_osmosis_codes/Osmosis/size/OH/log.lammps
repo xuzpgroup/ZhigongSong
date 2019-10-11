@@ -1,0 +1,161 @@
+LAMMPS (4 May 2011)
+
+dimension    3
+boundary     p    p    p
+processors   1    1    1
+
+units        real
+atom_style   full
+pair_style   lj/cut/coul/long 12.0
+
+kspace_style pppm    1.0e-4
+read_data    tube13-13structureFpistonOH1.data
+  3 = max bonds/atom
+  6 = max angles/atom
+  18 = max dihedrals/atom
+  orthogonal box = (0 0 -20) to (29.82 29.472 120)
+  1 by 1 by 1 processor grid
+  1584 atoms
+  2325 bonds
+  4650 angles
+  9361 dihedrals
+  4 = max # of 1-2 neighbors
+  8 = max # of 1-3 neighbors
+  23 = max # of 1-4 neighbors
+  23 = max # of special neighbors
+
+## 1H    2:O   3:Na    4:Cl    5:C
+
+pair_coeff   1   1   0.1051    3.851   ###C-C
+pair_coeff   2   2   0.155     3.07    ###O_COH-O_COH
+pair_coeff   3   3   0         0       ###H_COH-H_COH
+
+pair_modify shift yes mix geometric
+
+bond_style     hybrid  morse  harmonic
+bond_coeff     1   morse     114.4092    2.1867    1.418
+bond_coeff     2   harmonic  100.0956    0.1364
+bond_coeff     3   harmonic  450     0.096
+# 1   O-H
+# 2   C-C
+# 3   C-O
+# 4   O-H
+
+angle_style    hybrid  harmonic  cosine/squared
+angle_coeff    1    cosine/squared   67.1548   120
+angle_coeff    2    harmonic        100.0956   120
+angle_coeff    3    harmonic         95.0526   110.5
+# 1  H-O-H
+# 2  C-C-C
+# 3  C-C-O
+# 4  C-O-H
+
+dihedral_style  harmonic
+dihedral_coeff  1   3.0006    -1   2
+dihedral_coeff  2   0         -1   2
+dihedral_coeff  3   2.5096    -1   2
+# 1   C-C-C-C
+# 2   C-C-C-O
+# 3   C-C-O-H
+
+neighbor        2.0         nsq
+neigh_modify    exclude     molecule     all
+
+group  graphene     type   1
+1482 atoms in group graphene
+
+min_style         sd
+minimize          1.0e-6     1.0e-8     1000    100000
+WARNING: Resetting reneighboring criteria during minimization
+PPPM initialization ...
+  G vector = 0.15289
+  grid = 8 6 20
+  stencil order = 5
+  RMS precision = 4.68384e-005
+  brick FFT buffer size/proc = 3575 960 2925
+Memory usage per processor = 11.2272 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0            0   -926.64166     48062.88    47136.239   -19842.996 
+    1000            0   -939.55831    3773.7061    2834.1478   -199.64059 
+Loop time of 42.9985 on 1 procs for 1000 steps with 1584 atoms
+
+Minimization stats:
+  Stopping criterion = max iterations
+  Energy initial, next-to-last, final = 
+         47136.2386474      2834.16368238      2834.14777193
+  Force two-norm initial, final = 10112.1 59.2042
+  Force max component initial, final = 1172.23 32.8612
+  Final line search alpha, max atom move = 1.5421e-005 0.000506753
+  Iterations, force evaluations = 1000 7180
+
+Pair  time (%) = 0.0680101 (0.158169)
+Bond  time (%) = 20.5112 (47.7021)
+Kspce time (%) = 21.5672 (50.1582)
+Neigh time (%) = 0.172009 (0.400036)
+Comm  time (%) = 0.383025 (0.890788)
+Outpt time (%) = 0.00100006 (0.00232581)
+Other time (%) = 0.296012 (0.688424)
+
+FFT time (% of Kspce) = 0.400008 (1.8547)
+FFT Gflps 3d (1d only) = 0.329606 -12204.1
+
+Nlocal:    1584 ave 1584 max 1584 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    5699 ave 5699 max 5699 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    0 ave 0 max 0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 0
+Ave neighs/atom = 0
+Ave special neighs/atom = 17.8826
+Neighbor list builds = 2
+Dangerous builds = 0
+
+fix    1    all       shake  1.0e-12   20   0   b  2 3
+  0 = # of size 2 clusters
+  51 = # of size 3 clusters
+  0 = # of size 4 clusters
+  0 = # of frozen angles
+
+fix    2    graphene  momentum     1    linear    1    1    1  angular
+fix    3    all   nvt   temp  300  300  100.0
+#fix    5    graphene  setforce   0   0   0
+timestep 0.1
+run 10
+PPPM initialization ...
+  G vector = 0.15289
+  grid = 8 6 20
+  stencil order = 5
+  RMS precision = 4.68384e-005
+  brick FFT buffer size/proc = 3575 960 2925
+Memory usage per processor = 11.0505 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+    1000            0   -939.55831    3773.2412    2833.6829   -28303.425 
+    1010   0.57734945   -939.55896    3775.4659    2838.5728   -237.54465 
+Loop time of 0.0600039 on 1 procs for 10 steps with 1584 atoms
+
+Pair  time (%) = -9.31323e-008 (-0.00015521)
+Bond  time (%) = 0.0280039 (46.6701)
+Kspce time (%) = 0.03 (49.9967)
+Neigh time (%) = 0 (0)
+Comm  time (%) = -8.87085e-008 (-0.000147838)
+Outpt time (%) = 0.00100006 (1.66667)
+Other time (%) = 0.00100013 (1.66677)
+
+FFT time (% of Kspce) = 0.00399994 (13.3331)
+FFT Gflps 3d (1d only) = 0.329618 5708.37
+
+Nlocal:    1584 ave 1584 max 1584 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    5699 ave 5699 max 5699 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    0 ave 0 max 0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 0
+Ave neighs/atom = 0
+Ave special neighs/atom = 17.8826
+Neighbor list builds = 0
+Dangerous builds = 0
+
